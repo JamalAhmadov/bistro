@@ -1,0 +1,35 @@
+.blogArticles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 306px;
+    height: 354px;
+    border-radius: 20px;
+}
+
+.blogArticles p{
+    width: 256px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(44, 47, 36, 1);
+}
+.blogArticles span{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(115, 120, 101, 1);
+}
+.blogArticles .blogContent{
+   background-color: rgba(255, 255, 255, 1);
+   padding: 11px;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+
+.hamburger{
+    width: 330px;
+    height: 200px;
+
+}

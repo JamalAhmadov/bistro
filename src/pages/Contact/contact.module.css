@@ -1,0 +1,123 @@
+.contactUs {
+  width: 100%;
+  min-height: 749px;
+  background-color: #f9f9f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  min-height: 450px;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.callUs {
+  min-height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.callUs .container {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.callContainer {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.call {
+  width: 30%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.callTxt {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2c2f24;
+}
+
+.phoneTxt {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  color: #2c2f24;
+  margin: 0;
+  padding: 0;
+}
+
+.phoneNumber {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  color: #ad343e;
+}
+
+@media screen and (max-width: 1096px) {
+  .callContainer {
+    flex-direction: column;
+  }
+
+  .call {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactUs {
+    min-height: 893px;
+  }
+  .contactUs .container {
+    min-height: 950px;
+  }
+  .contactForm {
+    bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nameEmail {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .lableInp {
+    width: 100%;
+  }
+
+  .messageInp {
+    height: 130px;
+  }
+  .contactForm {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .phoneNumber {
+    font-size: 14px;
+  }
+
+  .phoneTxt {
+    font-size: 14px;
+  }
+}

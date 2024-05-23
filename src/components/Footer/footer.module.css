@@ -1,0 +1,129 @@
+.footerContent{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bistroLogo{
+    width: 293px;
+    height: 222px;
+}
+.bistroLogo p{
+    font-size: 16px;
+    font-family: DM Sans;
+    font-weight: 400;
+    color: rgba(173, 178, 158, 1);
+}
+.bistroPages{
+    display: flex;
+}
+.pages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pages h4{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+.pages ul{
+   list-style-type: none;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+.pages ul li{
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(219, 223, 208, 1);
+}
+.followUs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.followUs h4{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+.followUs div{
+    display: flex;
+    gap: 20px;
+}
+.followUs img{
+    width: 240px;
+    height: 200px;
+}
+
+ @media screen and (max-width:1200px) {
+    .bistroLogo{
+        width: 250px;
+    }  
+    .followUs img{
+        width: 200px;
+    }
+ }
+
+ @media screen and (max-width:1081px) {
+    .footerContent{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .followUs img{
+        width: 180px;
+    }
+    .bistroLogo{
+        width: 300px;
+        height: 222px;
+        margin: 0;
+        padding: 0;
+    }
+    .bistroPages{
+        gap: 50px;
+    }
+    .pages h4{
+        font-family: DM Sans;
+        font-weight: 700;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 1);
+    }
+    .pages ul{
+       list-style-type: none;
+       display: flex;
+       flex-direction: column;
+       gap: 30px;
+    }
+    .pages ul li{
+        font-family: DM Sans;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(219, 223, 208, 1);
+    }
+    .bistroLogo p{
+        font-size: 18px;
+    }
+ }
+
+ @media screen and (max-width:415px) {
+    .followUs img{
+        width: 150px;
+    }
+  .bistroLogo{
+    width: 248px;
+  }
+ }
+
+ @media screen and (max-width:340px) {
+    .followUs img{
+        width: 130px;
+    }
+ }

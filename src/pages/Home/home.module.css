@@ -1,0 +1,471 @@
+.welcome {
+    width: 100%;
+    min-height: 780px;
+    background-image: url("../../assets/images/bgimage.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text {
+    width: 667px;
+}
+
+.text h1 {
+    font-family: Playfair Display;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 96px;
+    text-align: center;
+    margin: 0;
+    color: #2C2F24;
+    text-align: center;
+}
+
+.text p {
+    margin: 15px auto;
+    width: 537px;
+    color: #2C2F24;
+    height: 64px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 20px;
+    text-align: center;
+    font-family: DM, sans-serif;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ourMenu {
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ourMenu .container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.browse {
+    font-family: Playfair Display;
+    font-weight: 500;
+    text-align: center;
+    color: #2C2F24;
+    font-size: 55px;
+}
+
+.cartContainer {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.healthy {
+    background-color: red;
+    min-height: 856px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9F9F7;
+}
+
+.healthy .container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.services {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 860px;
+
+}
+
+.services .container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.unique {
+    width: 100%;
+    margin: 0;
+    font-family: Playfair Display;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.uniqueServices {
+    padding-bottom: 2rem;
+    width: 100%;
+    margin: 0;
+    font-family: Playfair Display;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.cateringContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fastesFood {
+    min-height: 860px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fastesFood .container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chefImgs {
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 60%;
+
+}
+
+.chefImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.chef {
+    width: 100%;
+    min-height: 550px;
+
+}
+
+.seafoodKebab {
+    width: 35%;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+}
+
+.sea {
+    min-height: 250px;
+    width: 100%;
+    position: absolute;
+    top: 30px;
+}
+
+.kebab {
+    min-height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 370px;
+}
+
+.fastesFoodAbout {
+    width: 37%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.foodDelivery {
+    margin: 0;
+    font-family: Playfair Display;
+    font-size: 55px;
+    font-weight: 500;
+    color: #2C2F24;
+}
+
+.ourVisual {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2C2F24;
+}
+
+.deliveryAbout {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.delivery {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.deliveryIcon {
+    background-color: #AD343E;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    font-size: 5px;
+    align-items: center;
+    color: #fff;
+    font-size: 5px;
+    justify-content: center;
+    font-size: 5px;
+}
+
+.minutes {
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+@media screen and (max-width:768px) {
+    .welcome {
+        min-height: 500px;
+    }
+
+    .text h1 {
+        font-size: 50px;
+        line-height: 45px;
+    }
+
+    .text p {
+        font-size: 16px;
+        margin: 15px auto;
+
+    }
+}
+
+@media screen and (max-width:655px) {
+    .unique {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .uniqueServices {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .text h1 {
+        font-size: 30px;
+    }
+
+    .text p {
+        font-size: 12px;
+        width: 80%;
+        line-height: 25px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:501px) {
+    .healthy {
+        min-height: 650px;
+    }
+}
+
+@media screen and (max-width:1191px) {
+    .fastesFood .container {
+        margin-top: 2rem;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .chefImgs {
+        width: 80%;
+    }
+
+    .fastesFoodAbout {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    .chefImgs {
+        flex-direction: column;
+    }
+
+    .seafoodKebab {
+        display: none;
+    }
+
+    .chefImgs {
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .chefImg {
+        width: 95%;
+        min-height: 300px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .fastesFood .container {
+        width: 100%;
+    }
+
+    .chefImgs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .chef {
+        width: 95%;
+        min-height: 400px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .foodDelivery {
+        font-size: 40px;
+    }
+
+    .ourVisual {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .fastesFood .container {
+        width: 100%;
+    }
+
+    .foodDelivery {
+        font-size: 35px;
+    }
+
+    .ourVisual {
+        font-size: 12px;
+    }
+
+    .chefImgs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 320px;
+    }
+
+    .chefImg {
+        width: 100%;
+
+    }
+
+    .chef {
+        width: 95%;
+        min-height: 300px;
+    }
+}
+
+.ourBlog {
+    width: 100%;
+    min-height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(249, 249, 247, 1);
+    padding-bottom: 30px;
+}
+
+.ourBlog .container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ourBlog .container .ourblogContent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ourBlog .container .ourblogContent .ourblogText {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ourBlog .container .ourblogContent .ourblogText h2 {
+    font-family: Playfair Display;
+    font-size: 45px;
+    font-weight: 500;
+    color: rgba(44, 47, 36, 1);
+}
+
+.ourBlog .container .ourblogContent .articles {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.ourBlog .container .ourblogContent .articles .secretTips {
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media screen and (max-width:1300px) {
+    .perfectBurger {
+        display: none;
+    }
+
+    .articles {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    flex-direction: column;
+    background-color: #F9F9F7;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+button{
+    display: block;
+}
+
+@media screen and (max-width:992px) {
+    .hamburger{
+        display: block;
+    }
+    button{
+        display: none;
+    }
+}

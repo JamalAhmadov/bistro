@@ -1,0 +1,353 @@
+.customerCard{
+    width: 350px;
+    height: 360px;
+    background-color: rgba(249, 249, 247, 1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.customerSay h3{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -3%;
+    color: rgba(173, 52, 62, 1);
+}
+.customerSay p{
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -3%;
+    color: rgba(65, 69, 54, 1);
+}
+.customerSay{
+    width: 330px;
+    height: 194px;
+    padding-bottom: 30px;
+}
+.line{
+    width: 250px;
+    height: 2px;
+    background-color: rgba(219, 223, 208, 0.3);
+}
+.customer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 225px;
+    height: 70px;
+    margin: 30px 0px 0px 0px;
+    padding: 0;
+    
+}
+.customer img{
+    width: 70px;
+    height: 70px;
+}
+
+.customerAbout{
+    display: flex;
+    flex-direction: column;
+}
+.customerAbout h6{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: DM Sans;
+    color: rgba(44, 47, 36, 1);
+    margin: 0;
+}
+
+.customerAbout span{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: DM Sans;
+    color: rgba(65, 69, 54, 1);
+    margin: 0; 
+}
+
+@media screen and (max-width: 1105px) {
+    .customerCard{
+        width: 300px;
+        height: 340px;
+    }
+    .customerSay h3{
+        font-size: 20px;
+    }
+    .customerSay{
+        width: 260px;
+        height: 194px;
+        padding-bottom: 0;
+    }
+    .customerSay p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .customerCard{
+        width: 280px;
+        height: 300px;
+    }
+    .customerSay h3{
+        font-size: 18px;
+    }
+    .customerSay{
+        width: 240px;
+        height: 180px;
+        padding-bottom: 0;
+    }
+    .customerSay p{
+        font-size: 14px;
+    }
+
+    .customer{
+        width: 200px;
+        height: 70px;
+    }
+    .customer img{
+        width: 60px;
+        height: 60px;
+    }
+    .customerAbout h6{
+        font-size: 14px;
+    }
+    
+    .customerAbout span{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 880px) {
+    .customerCard{
+        width: 260px;
+        height: 300px;
+    }
+    .customerSay h3{
+        font-size: 16px;
+    }
+    .customerSay{
+        width: 220px;
+        height: 180px;
+        padding-bottom: 0;
+    }
+    .customerSay p{
+        font-size: 14px;
+    }
+
+    .customer{
+        width: 200px;
+        height: 70px;
+    }
+    .customer img{
+        width: 60px;
+        height: 60px;
+    }
+    .customerAbout h6{
+        font-size: 14px;
+    }
+    
+    .customerAbout span{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 815px) {
+    .customerCard{
+        width: 560px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .customerSay h3{
+        font-size: 30px;
+    }
+    .customerSay{
+        width: 500px;
+        height: 180px;
+        padding-bottom: 0;
+    }
+    .customerSay p{
+        font-size: 16px;
+    }
+
+    .customer{
+        width: 200px;
+        height: 70px;
+    }
+    .customer img{
+        width: 60px;
+        height: 60px;
+    }
+    .customerAbout h6{
+        font-size: 14px;
+    }
+    
+    .customerAbout span{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .customerCard{
+        width: 460px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .customerSay h3{
+        font-size: 30px;
+    }
+    .customerSay{
+        width: 350px;
+        height: 180px;
+        padding-bottom: 0;
+    }
+    .customerSay p{
+        font-size: 14px;
+    }
+    .line{
+        display: none;
+    }
+    .customer{
+        width: 200px;
+        height: 70px;
+    }
+    .customer img{
+        width: 60px;
+        height: 60px;
+    }
+    .customerAbout h6{
+        font-size: 14px;
+    }
+    
+    .customerAbout span{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .customerCard{
+        width: 400px;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .customerSay h3{
+        font-size: 25px;
+    }
+    .customerSay{
+        width: 350px;
+        height: 160px;
+        padding-bottom: 0;
+    }
+    .customerSay p{
+        font-size: 14px;
+    }
+    .line{
+        display: none;
+    }
+    .customer{
+        width: 200px;
+        height: 70px;
+    }
+    .customer img{
+        width: 60px;
+        height: 60px;
+    }
+    .customerAbout h6{
+        font-size: 14px;
+    }
+    
+    .customerAbout span{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .customerCard{
+        width: 300px;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .customerSay h3{
+        font-size: 25px;
+    }
+    .customerSay{
+        width: 270px;
+        height: 160px;
+        padding-bottom: 0;
+    }
+    .customerSay p{
+        font-size: 14px;
+    }
+    .line{
+        display: none;
+    }
+    .customer{
+        width: 200px;
+        height: 70px;
+    }
+    .customer img{
+        width: 60px;
+        height: 60px;
+    }
+    .customerAbout h6{
+        font-size: 14px;
+    }
+    
+    .customerAbout span{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 330px) {
+    .customerCard{
+        width: 250px;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .customerSay h3{
+        font-size: 20px;
+    }
+    .customerSay{
+        width: 220px;
+        height: 130px;
+        padding-bottom: 0;
+    }
+    .customerSay p{
+        font-size: 12px;
+    }
+    .line{
+        display: none;
+    }
+    .customer{
+        width: 200px;
+        height: 70px;
+    }
+    .customer img{
+        width: 60px;
+        height: 60px;
+    }
+    .customerAbout h6{
+        font-size: 14px;
+    }
+    
+    .customerAbout span{
+        font-size: 14px;
+    }
+}

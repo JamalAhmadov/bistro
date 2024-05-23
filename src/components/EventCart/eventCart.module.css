@@ -1,0 +1,74 @@
+.eventMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+.eventImg{
+    width: 599px;
+    width: 53%;
+}
+
+.food{
+    width: 95%;
+    height: 87%;
+}
+.healthy{
+    color: #2C2F24;
+font-family: Playfair Display;
+font-size: 48px;
+font-weight: 500;
+}
+.ourStory{
+font-family: DM Sans;
+font-size: 15px;
+font-weight: 500;
+color: #2C2F24;
+}
+.place{
+font-family: DM Sans;
+font-size: 15px;
+font-weight: 400;
+}
+.eventAbout{
+    width: 557px;
+    width: 45%;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+@media screen and (max-width:1281px) {
+    .eventMenu{
+        flex-direction: column;
+    }
+    .eventImg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin-top: 1rem;
+    }
+
+    .eventAbout{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        gap: 0px;
+    }
+}
+
+@media screen and (max-width:501px) {
+    .healthy{
+        font-size: 15px;
+    }
+    .ourStory{
+        font-size: 12px;
+    }
+    .place{
+        font-size: 12px;
+    }
+}

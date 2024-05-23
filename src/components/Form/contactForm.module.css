@@ -1,0 +1,229 @@
+.contactUs {
+    width: 100%;
+    min-height: 749px;
+    background-color: #F9F9F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    min-height: 450px;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.contactForm {
+    background-color: #fff;
+    width: 60%;
+    box-shadow: 1px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    bottom: -300px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 588px;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 30px;
+}
+
+.nameEmail {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lableInp {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 40%;
+
+}
+
+.inpLable {
+    color: #2C2F24;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.nameInp {
+    width: 100%;
+    height: 40px;
+    border-radius: 72px;
+    border: 1px solid #DBDFD0;
+    padding-left: 10px;
+    outline: none;
+}
+
+.emailInp {
+    width: 100%;
+    height: 40px;
+    border-radius: 72px;
+    border: 1px solid #DBDFD0;
+    padding-left: 10px;
+    outline: none;
+}
+
+.subject {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.subjectInp {
+    width: 99%;
+    outline: none;
+    height: 40px;
+    border-radius: 72px;
+    border: 1px solid #DBDFD0;
+    padding-left: 10px;
+}
+
+.message {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.messageInp {
+    width: 99%;
+    outline: none;
+    border-radius: 16px;
+    border: 1px solid #DBDFD0;
+    padding-left: 10px;
+    height: 250px;
+}
+
+.messageInp::placeholder {
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: start;
+    text-align: start;
+}
+
+.callUs {
+    min-height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.callUs .container {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.callContainer {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.call {
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.callTxt {
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2C2F24;
+
+}
+
+.phoneTxt {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2C2F24;
+    margin: 0;
+    padding: 0;
+}
+
+.phoneNumber {
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: #AD343E;
+}
+
+p{
+    margin: 0;
+    color: red;
+}
+
+@media screen and (max-width:1096px) {
+    .callContainer {
+        flex-direction: column;
+    }
+
+    .call {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .contactUs{
+        min-height: 893px;
+    }
+    .contactUs .container{
+min-height: 893px;
+
+    }
+    .contactForm{
+        bottom: 100px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .nameEmail {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .lableInp {
+        width: 100%;
+    }
+
+    .messageInp {
+        height: 130px;
+    }
+    .contactForm{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .phoneNumber {
+        font-size: 14px;
+    }
+
+    .phoneTxt {
+        font-size: 14px;
+    }
+}

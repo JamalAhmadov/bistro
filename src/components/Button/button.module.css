@@ -1,0 +1,21 @@
+.button {
+    border-radius: 118px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+    padding: 10px;
+}
+@media screen and (max-width:700px) {
+    .button{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:550px) {
+    .button{
+        font-size: 14px;
+        line-height: 16px;
+        font-size: 12px;
+    }
+}

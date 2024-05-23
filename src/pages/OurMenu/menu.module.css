@@ -1,0 +1,242 @@
+.ourMenu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ourMenu .container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ourMenu .container .menuContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.ourMenu .container .menuContent .menuButtons {
+    width: 80%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ourMenuProducts {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 980px;
+}
+
+.productCart {
+    width: 24%;
+    height: 448px;
+    border: 1.5px solid #DBDFD0;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.cartImg {
+    width: 100%;
+    min-height: 275px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.cartAbout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.cartPrice {
+    margin: 0px;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #AD343E;
+}
+
+.cartName {
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px;
+    text-align: center;
+}
+
+.cartIngredients {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.orderApps{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+    background-color: #F9F9F7;
+    padding-bottom: 1rem;
+}
+
+.orderApps .container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orderApps .container .orderappsContent{
+    width: 100%;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orderApps .container .orderappsContent .orderappsText{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.orderApps .container .orderappsContent .orderappsText .orderName{
+    font-size: 55px;
+    font-family: Playfair Display;
+    font-weight: 500;
+    color: rgba(44, 47, 36, 1);
+    margin: 0;
+}
+.orderApps .container .orderappsContent .orderappsText .orderDescription{
+    font-size: 16px;
+    font-family: DM Sans;
+    font-weight: 400;
+    color: rgba(65, 69, 54, 1);
+    margin: 0;
+    width: 65%;
+}
+.orderApps .container .orderappsContent .appsLogos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    min-height: 350px;
+} 
+.orderApps .container .orderappsContent .appsLogos .appLogos{
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.orderApps .container .orderappsContent .appsLogos .appLogo{
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.orderApps .container .orderappsContent .appsLogos .appLogos .apps{
+  width: 150px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.orderApps .container .orderappsContent .appsLogos .appLogo .apps{
+   width: 150px;
+   background-color: #fff;
+   padding: 10px;
+   background-color: #fff;
+   border-radius: 12px;
+ }
+
+@media screen and (max-width:1160px) {
+    .productCart{
+        width: 45%;
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width:1091px) {
+    .orderApps .container .orderappsContent{
+        flex-direction: column;
+    }
+    .orderApps .container .orderappsContent .orderappsText .orderDescription{
+        width: 100%;
+    }
+    .orderApps .container .orderappsContent .orderappsText{
+        width: 100%;
+        text-align: center;
+    }
+    .orderApps .container .orderappsContent .appsLogos{
+        width: 100%;
+    }
+}
+@media screen and (max-width:961px) {
+    .ourMenu .container .menuContent .menuButtons {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:746px) {
+    .ourMenu .container .menuContent .menuButtons {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:661px) {
+    .productCart{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .ourMenuProducts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:640px) {
+    .orderApps .container .orderappsContent .appsLogos .appLogos{
+        flex-direction: column;
+    }
+    .orderApps .container .orderappsContent .appsLogos .appLogo{
+        flex-direction: column;
+    }
+    .orderApps .container .orderappsContent .appsLogos{
+        gap: 20px;
+    }
+}
+@media screen and (max-width:433px) {x
+    .orderApps .container .orderappsContent .orderappsText .orderName{
+        font-size: 37px;
+    }
+    .orderApps .container .orderappsContent .orderappsText .orderDescription{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:388px) {
+    .ourMenu .container .menuContent .menuButtons {
+        display: none;
+    }
+}

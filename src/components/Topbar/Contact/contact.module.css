@@ -1,0 +1,20 @@
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    width: 344px;
+    color: #fff;
+}
+
+.contactIcon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+@media screen and (max-width:550px) {
+    .contact .contactIcon p{
+        display: none;
+    }
+}
