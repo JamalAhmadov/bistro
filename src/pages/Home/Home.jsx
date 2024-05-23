@@ -194,6 +194,8 @@ const Home = () => {
                   bgcolor="rgba(173, 52, 62, 1)"
                   color="white"
                   border="none"
+                  handleClick={()=>{navigate('/pages')}}
+
                 />
               </div>
 

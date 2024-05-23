@@ -3,7 +3,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 export const sendFormData = createAsyncThunk(
   'form/sendFormData',
   async (formData, thunkAPI) => {
-    const response = await fetch('https://664f6f33ec9b4a4a602ec793.mockapi.io/contact', {
+    const response = await fetch('http://localhost:3000/contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

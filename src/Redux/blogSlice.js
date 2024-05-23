@@ -8,7 +8,7 @@ const initialState = {
 
 export const getBlogs = createAsyncThunk("blogs/getBlogs", async () => {
     try {
-        const response = await axios.get("https://664f6f33ec9b4a4a602ec793.mockapi.io/blogs");
+        const response = await axios.get("http://localhost:3000/blogs");
 
         if (response.status !== 200) {
             throw new Error("Failed to fetch blogs");

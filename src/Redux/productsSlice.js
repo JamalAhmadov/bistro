@@ -8,7 +8,7 @@ const initialState = {
 
 export const getProducts = createAsyncThunk("products/getProducts", async () => {
     try {
-        const response = await axios.get("https://664f6f33ec9b4a4a602ec793.mockapi.io/data");
+        const response = await axios.get("http://localhost:3000/products");
 
         if (response.status !== 200) {
             throw new Error("Failed to fetch products");
